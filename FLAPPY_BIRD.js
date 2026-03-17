@@ -462,7 +462,7 @@ function restartGame() {
         BIRD.y = 100;
 
         canvasContext.clearRect(0, 0, GAME.displayWidth, GAME.displayHeight);
-        createPipe();
+        // createPipe();
         requestAnimationFrame(play)
     }
 }
@@ -545,7 +545,7 @@ BIRD.img.onload = function () {
             updateGameBounds();
 
             initMic();
-            createPipe();
+            // createPipe();
             play();
         }
     }
